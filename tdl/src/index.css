@@ -1,0 +1,56 @@
+:root {
+    --greyish: #6c7591;
+}
+  
+  body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* background-color: pink !important; */
+	/* background: linear-gradient(0deg, rgb(252, 221, 221), rgb(247, 247, 247) 23.8% 92%); */
+    background: linear-gradient(0deg, #feb1d9, rgb(247, 247, 247) 90% 92%);
+	min-height: 100vh !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.list-group-item-success {
+    background-color: rgb(252, 221, 221) !important;
+    color: unset !important;
+}
+
+.logo {
+    width: 35%;
+    min-width: 17rem;
+    /* padding: 1rem;
+    border: dotted 5px #feb1d9; */
+}
+
+.logo-subtitle-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.cit {
+    color: var(--greyish);
+}
+
+.sad-frau {
+    font-size: small;
+    color: var(--greyish);
+}
+
+.legend {
+    color: var(--greyish);
+}
